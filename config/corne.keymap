@@ -66,6 +66,7 @@
    &kp TAB  &kp BSLH &kp LPAR &kp RPAR &kp FSLH  &kp LC(Z)    &kp SPACE &kp EQUAL &kp MINUS  &kp PLUS    &kp STAR &kp RET
    &kp LALT &kp LT   &kp LBRC &kp RBRC &kp GT    &kp LC(S)    &kp COMMA &kp AT    &kp AMPS   &kp CARET   &kp SQT  &kp LGUI
                                         &none &none &trans    &trans &kp LSHFT &kp LCTRL
+			>;
                 };
 
                 function_layer {
