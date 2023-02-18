@@ -51,10 +51,10 @@
                 numbers_layer {
 			label = "NUM";
                         bindings = <
-   &kp ESC  &kp STAR &kp PLUS  &kp MINUS &kp EQUAL &kp FSLH     &kp LC(X) &kp N4 &kp N5 &kp N6 &kp SEMI  &kp BSPC
-   &kp TAB  &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp SPACE    &kp LC(C) &kp N0 &kp N1 &kp N2 &kp N3    &kp RET
-   &kp LALT &kp LT   &kp COMMA &kp DOT   &kp GT    &kp CAPS     &kp LC(V) &kp N7 &kp N8 &kp N9 &kp GRAVE &kp LGUI
-                                   &kp LSHFT &kp LCTRL &none    &trans &none &none
+   &kp ESC  &kp STAR &kp PLUS  &kp MINUS &kp EQUAL &kp FSLH     &kp LC(R) &kp N4 &kp N5 &kp N6 &kp SEMI  &kp BSPC
+   &kp TAB  &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &kp SPACE    &kp LC(Z) &kp N0 &kp N1 &kp N2 &kp N3    &kp RET
+   &kp LALT &kp LT   &kp COMMA &kp DOT   &kp GT    &kp CAPS     &kp LC(S) &kp N7 &kp N8 &kp N9 &kp GRAVE &kp LGUI
+                                   &kp LCTRL &kp LSHFT &none    &trans &none &none
                         >;
                 };
 
@@ -62,9 +62,9 @@
 			label = "SYMB";
                         bindings = <
    			
-   &kp ESC  &kp EXCL &kp LBKT &kp RBKT &kp QMARK &kp LC(R)    &kp DOT   &kp HASH  &kp DOLLAR &kp PERCENT &kp SEMI &kp BSPC
-   &kp TAB  &kp BSLH &kp LPAR &kp RPAR &kp FSLH  &kp LC(Z)    &kp SPACE &kp EQUAL &kp MINUS  &kp PLUS    &kp STAR &kp RET
-   &kp LALT &kp LT   &kp LBRC &kp RBRC &kp GT    &kp LC(S)    &kp COMMA &kp AT    &kp AMPS   &kp CARET   &kp SQT  &kp LGUI
+   &kp ESC  &kp EXCL &kp LBKT &kp RBKT &kp QMARK &kp LC(X)    &kp DOT   &kp HASH  &kp DOLLAR &kp PERCENT &kp SEMI &kp BSPC
+   &kp TAB  &kp BSLH &kp LPAR &kp RPAR &kp FSLH  &kp LC(C)    &kp UNDER &kp EQUAL &kp MINUS  &kp PLUS    &kp STAR &kp RET
+   &kp LALT &kp LT   &kp LBRC &kp RBRC &kp GT    &kp LC(V)    &kp COMMA &kp AT    &kp AMPS   &kp CARET   &kp SQT  &kp LGUI
                                         &none &none &trans    &trans &kp LSHFT &kp LCTRL
 			>;
                 };
